@@ -1,0 +1,80 @@
+Manual de vi
+
+ls <- listado de archivos
+
+cd _____ <-cambio de archivoso
+
+cd .. <- bajar al directorio madre
+
+cd . <- baja al home
+
+pwd <- present working directory
+
+cd/home/alumno/Documentos
+
+rm ____ ____ <- borrar archivos
+
+rm *.jpg  <- borrar tipos de archivo
+
+rm * <- borrar todo 
+
+rm -r ____ <- 
+
+rmdir __________ <-brrar directorio
+
+mkdir __________ <- Hacer directorio
+
+ps -ef <- Muestra los procesoso
+
+kill -9 ____ PID
+
+Esc: salir de modo escritura
+
+R: modo de escritura reemplazando
+
+i: modo de escritura insertando
+
+x: borrado de letras
+
+dd: borrado de renglon
+
+D: borrar a partir de este punto
+
+o: abrir renglon abajo
+
+O: abrir renglon arriba
+
+/palabra  <- busca palabra
+
+n: proxima aparicion de palabra 
+
+N: anterior
+
+:100  ir a la linea 100
+
+:$ ir a la ultima linea
+
+Intalar git:
+ - Ir a cuenta soporte, contraseña: udiesfmipn1936
+
+ -Comandos:
+  -sudo apt-get install git
+  -sudo apt-get update
+  -sudo apt-get upgrade
+
+Instructivo de gi:
+
+ -git init
+ -git clone ________ (url del repositorio)
+ -git add ______ (archivo) . para muchos archivos
+ -git commit -m "Manual"
+ -git push
+
+Instrucciones especiales:
+
+ -git status
+ -git config:
+   -git config --global user.name ____"usuario"
+   -git config --global user.email ______ (email)
+
+ -mv ______ archivo   _______ nueva direccion
