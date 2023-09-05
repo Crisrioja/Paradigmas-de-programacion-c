@@ -1,3 +1,11 @@
+________________________________________________________________________________________________________________________________________________________________Alumno: Cristian Torres Rioja
+________________________________________________________________________________________________________________________________________________________________
+Asignatura: PAradigmas de Programación
+Carrera: Matemática algorítmica
+Escuela: ESFM - IPN 
+Fecha: SEP- 2023
+
+
 Manual de vi
 
 ls <- listado de archivos
@@ -63,7 +71,8 @@ Intalar git:
   -sudo apt-get upgrade
 
 Instructivo de gi:
-
+  
+ -rm -r Directorio viejo
  -git init
  -git clone ________ (url del repositorio)
  -git add ______ (archivo) . para muchos archivos
@@ -78,3 +87,5 @@ Instrucciones especiales:
    -git config --global user.email ______ (email)
 
  -mv ______ archivo   _______ nueva direccion
+
+
