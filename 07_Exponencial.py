@@ -39,7 +39,7 @@ def exponencial_pro(n:int=150,x:float=1.0):
     s = 1.0
     for i in range(n,0,-1):
         s *= x/float(i)
-        s *= 1.0
+        s += 1.0
     if flag == True:
         s = 1/s
     return s
