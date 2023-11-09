@@ -13,11 +13,11 @@
 import turtle
 tortuga = turtle.Turtle()
 tortuga.left(90)    #Giro a la izquierda de 90 grados
-tortuga.speed(500)  #Velocidad de la tortuga
+tortuga.speed(5000)  #Velocidad de la tortuga
 
 tortuga1 = turtle.Turtle()
 tortuga1.left(-90)
-tortuga1.speed(500)
+tortuga1.speed(5000)
 
 #===========================================================
 #   Con ángulos de 90 es un árbol H
@@ -30,7 +30,7 @@ angulo1: float = -90
 #===========================================================
 
 def arbol(i:float, angulo:float):
-    if i<10.0:
+    if i<5.0:
         return
     else:
         tortuga.forward(i)  #Camina i
@@ -44,7 +44,7 @@ def arbol(i:float, angulo:float):
 
 
 def arbol1(i:float, angulo1:float):
-    if i<10.0:
+    if i<5.0:
         return
     else:
         tortuga1.forward(i)
