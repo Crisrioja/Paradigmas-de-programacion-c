@@ -12,15 +12,19 @@
 
 import turtle
 tortuga = turtle.Turtle()
-tortuga.left(75)    #Giro a la izquierda de 90 grados
-tortuga.speed(100)  #Velocidad de la tortuga
+tortuga.left(90)    #Giro a la izquierda de 90 grados
+tortuga.speed(500)  #Velocidad de la tortuga
+
+tortuga1 = turtle.Turtle()
+tortuga1.left(-90)
+tortuga1.speed(500)
 
 #===========================================================
 #   Con ángulos de 90 es un árbol H
 #===========================================================
 
-angulo: float = 75
-
+angulo: float = 90
+angulo1: float = -90
 #===========================================================
 #   El arbol se construye con recursividad
 #===========================================================
@@ -39,7 +43,23 @@ def arbol(i:float, angulo:float):
         tortuga.backward(i)
 
 
+def arbol1(i:float, angulo1:float):
+    if i<10.0:
+        return
+    else:
+        tortuga1.forward(i)
+        tortuga1.left(angulo1)
+        arbol1(3.0*i/4.25,angulo1)
+
+        tortuga1.right(2*angulo)
+        arbol1(3.0*i/4.25,angulo1)
+        tortuga1.left(angulo1)
+        tortuga1.backward(i)
+
+
+
 arbol(150,angulo)
+arbol1(150,angulo1)
 turtle.done()
 
 
